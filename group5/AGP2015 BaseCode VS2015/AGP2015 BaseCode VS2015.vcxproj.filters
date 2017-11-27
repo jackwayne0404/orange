@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{06dc5f8e-e470-4624-ae91-0f3256f1392d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ac7b65e4-4caf-4fdd-8833-436d3cbbc656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Point Shadows">
+      <UniqueIdentifier>{03449c99-ef0b-4cb1-98a5-187b096b2c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\parallax">
+      <UniqueIdentifier>{82fba9e4-93cf-4019-bc46-f23b0791ad23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md2model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3dObjLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="particleArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="anorms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md2model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3d.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3dObjLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="particleArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="studdedmetal.bmp">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="hobgoblin2.bmp">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="fabric.bmp">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="tex3.bmp">
+      <Filter>textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tris.MD2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pointShadows.frag">
+      <Filter>Shaders\Point Shadows</Filter>
+    </None>
+    <None Include="pointShadows.vert">
+      <Filter>Shaders\Point Shadows</Filter>
+    </None>
+    <None Include="simpleShadowMap.frag">
+      <Filter>Shaders\Point Shadows</Filter>
+    </None>
+    <None Include="simpleShadowMap.gs">
+      <Filter>Shaders\Point Shadows</Filter>
+    </None>
+    <None Include="simpleShadowMap.vert">
+      <Filter>Shaders\Point Shadows</Filter>
+    </None>
+    <None Include="particle.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="particle.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="multipleLight.frag">
+      <Filter>Shaders\parallax</Filter>
+    </None>
+    <None Include="multipleLights.vert">
+      <Filter>Shaders\parallax</Filter>
+    </None>
+    <None Include="multipleParallaxLight.frag">
+      <Filter>Shaders\parallax</Filter>
+    </None>
+    <None Include="multipleParallaxLights.vert">
+      <Filter>Shaders\parallax</Filter>
+    </None>
+  </ItemGroup>
+</Project>
